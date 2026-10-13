@@ -11,7 +11,6 @@ export default defineConfig({
   build: {
     outDir: "/tmp/turbz-static",
     emptyOutDir: true,
-    rollupOptions: { input: "/workspace/index
-    .html" },
+    rollupOptions: { input: "/workspace/index.html" },
   },
 });
